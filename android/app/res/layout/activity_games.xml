@@ -1,0 +1,29 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"
+    android:layout_width=\"match_parent\"
+    android:layout_height=\"match_parent\"
+    android:background=\"#0066CC\"
+    android:orientation=\"vertical\">
+
+    <TextView
+        android:layout_width=\"match_parent\"
+        android:layout_height=\"wrap_content\"
+        android:background=\"#003D99\"
+        android:padding=\"15dp\"
+        android:text=\"GAMES\"
+        android:textColor=\"#FFFFFF\"
+        android:textSize=\"20sp\"
+        android:textStyle=\"bold\" />
+
+    <GridView
+        android:id=\"@+id/grid_games\"
+        android:layout_width=\"match_parent\"
+        android:layout_height=\"match_parent\"
+        android:columnWidth=\"150dp\"
+        android:gravity=\"center\"
+        android:horizontalSpacing=\"10dp\"
+        android:numColumns=\"2\"
+        android:padding=\"10dp\"
+        android:verticalSpacing=\"10dp\" />
+
+</LinearLayout>
