@@ -1,0 +1,9 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<resources>
+    <string name=\"app_name\">Roblox</string>
+    <string name=\"action_settings\">Settings</string>
+    <string name=\"play\">PLAY</string>
+    <string name=\"games\">GAMES</string>
+    <string name=\"profile\">PROFILE</string>
+    <string name=\"chat\">CHAT</string>
+</resources>
