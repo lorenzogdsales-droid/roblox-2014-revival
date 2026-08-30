@@ -1,0 +1,93 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"
+    android:layout_width=\"match_parent\"
+    android:layout_height=\"match_parent\"
+    android:background=\"#0066CC\">
+
+    <!-- Logo Roblox Azul 2014 -->
+    <ImageView
+        android:id=\"@+id/logo_roblox\"
+        android:layout_width=\"300dp\"
+        android:layout_height=\"120dp\"
+        android:layout_centerHorizontal=\"true\"
+        android:layout_marginTop=\"40dp\"
+        android:contentDescription=\"Roblox Logo\" />
+
+    <!-- Container dos botões -->
+    <LinearLayout
+        android:layout_width=\"match_parent\"
+        android:layout_height=\"wrap_content\"
+        android:layout_below=\"@id/logo_roblox\"
+        android:layout_marginTop=\"60dp\"
+        android:gravity=\"center_horizontal\"
+        android:orientation=\"vertical\"
+        android:paddingLeft=\"20dp\"
+        android:paddingRight=\"20dp\">
+
+        <!-- Linha 1: PLAY e GAMES -->
+        <LinearLayout
+            android:layout_width=\"match_parent\"
+            android:layout_height=\"wrap_content\"
+            android:layout_marginBottom=\"20dp\"
+            android:orientation=\"horizontal\"
+            android:weightSum=\"2\">
+
+            <Button
+                android:id=\"@+id/btn_play\"
+                android:layout_width=\"0dp\"
+                android:layout_height=\"60dp\"
+                android:layout_weight=\"1\"
+                android:layout_marginEnd=\"10dp\"
+                android:background=\"#003D99\"
+                android:text=\"PLAY\"
+                android:textColor=\"#FFFFFF\"
+                android:textSize=\"18sp\"
+                android:textStyle=\"bold\" />
+
+            <Button
+                android:id=\"@+id/btn_games\"
+                android:layout_width=\"0dp\"
+                android:layout_height=\"60dp\"
+                android:layout_weight=\"1\"
+                android:layout_marginStart=\"10dp\"
+                android:background=\"#003D99\"
+                android:text=\"GAMES\"
+                android:textColor=\"#FFFFFF\"
+                android:textSize=\"18sp\"
+                android:textStyle=\"bold\" />
+        </LinearLayout>
+
+        <!-- Linha 2: PROFILE e CHAT -->
+        <LinearLayout
+            android:layout_width=\"match_parent\"
+            android:layout_height=\"wrap_content\"
+            android:orientation=\"horizontal\"
+            android:weightSum=\"2\">
+
+            <Button
+                android:id=\"@+id/btn_profile\"
+                android:layout_width=\"0dp\"
+                android:layout_height=\"60dp\"
+                android:layout_weight=\"1\"
+                android:layout_marginEnd=\"10dp\"
+                android:background=\"#003D99\"
+                android:text=\"PROFILE\"
+                android:textColor=\"#FFFFFF\"
+                android:textSize=\"18sp\"
+                android:textStyle=\"bold\" />
+
+            <Button
+                android:id=\"@+id/btn_chat\"
+                android:layout_width=\"0dp\"
+                android:layout_height=\"60dp\"
+                android:layout_weight=\"1\"
+                android:layout_marginStart=\"10dp\"
+                android:background=\"#003D99\"
+                android:text=\"CHAT\"
+                android:textColor=\"#FFFFFF\"
+                android:textSize=\"18sp\"
+                android:textStyle=\"bold\" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
