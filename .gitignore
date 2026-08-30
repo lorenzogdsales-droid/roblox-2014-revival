@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*.log
+
+# Build
+/dist
+/build
+*.apk
+*.aab
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App
+.gradle/
+.android/
