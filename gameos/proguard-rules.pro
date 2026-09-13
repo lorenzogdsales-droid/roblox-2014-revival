@@ -1,0 +1,4 @@
+-keep class com.gameos.desktop.** { *; }
+-keepattributes *Annotation*
+-keepattributes Signature
+-keepnames class com.gameos.desktop.** { *; }
